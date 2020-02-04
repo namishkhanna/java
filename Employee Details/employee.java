@@ -27,6 +27,7 @@ class EmployData
     {
     	  System.out.println("Employee Name : "+name+"			"+"Id : "+eid+"			"+"City : "+city+"			"+"Salary : "+salary);
     	  System.out.println();
+	  System.out.println();
     }
 }
 class employ
