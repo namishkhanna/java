@@ -305,9 +305,9 @@ class Account
                     Runtime.getRuntime().exec("clear");
             } catch (IOException | InterruptedException ex) {}
 
-            System.out.println("1. Interest Calculator –SB");
-            System.out.println("2. Interest Calculator –FD");
-            System.out.println("3. Interest Calculator –RD");
+            System.out.println("1. Interest Calculator Â–SB");
+            System.out.println("2. Interest Calculator Â–FD");
+            System.out.println("3. Interest Calculator Â–RD");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
