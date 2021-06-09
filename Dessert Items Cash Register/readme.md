@@ -1,4 +1,4 @@
-# Problem Statement
+# Problem Statement:
 
 ## Inheritance/Polymorphism/Interface Assignment
 * For this homework assignment, you will be writing software in support of a Dessert Shoppe which sells candy by the pound, cookies by the dozen, ice cream, and sundaes (ice cream with a topping).
@@ -24,3 +24,13 @@
 *	The Checkout class must use an ArrayList to store the DessertItem's. The total tax should be rounded to the nearest cent.
 *	All output from the Checkout class must display money in dollars and cents.
 *	You will also need to allow for a tax rate in the Checkout class. You can add it to the constructor. Or you can create setTax() and getTax() methods to this class
+
+
+# Output:
+<p align="center">
+<img src="output1.JPG" width="500px" height="300px">
+</p>
+
+<p align="center">
+<img src="output2.JPG" width="500px" height="300px">
+</p>
