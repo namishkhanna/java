@@ -120,7 +120,7 @@ public class BankAccount {
 
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		String url = "jdbc:oracle:thin:@localhost:1521:XE";
-		Connection con = DriverManager.getConnection(url, "user1","user1");
+		Connection con = DriverManager.getConnection(url, "sql_username","sql_password");
 		System.out.println("Connected successfully .... ");
 		
 		Scanner myObj = new Scanner(System.in);
