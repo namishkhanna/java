@@ -1,0 +1,20 @@
+create table bankaccount(accountnumber Integer unique not null, name varchar(30) not null, balance Integer not null, age Integer not null)
+insert into bankaccount values(1001, 'Raman', 20000, 25)
+insert into bankaccount values(1002, 'Shyam', 20300, 52)
+insert into bankaccount values(1003, 'Nitin', 30000, 32)
+insert into bankaccount values(1004, 'Akash', 25000, 62)
+insert into bankaccount values(1005, 'Rahul', 22000, 29)
+
+
+create or replace procedure depositamount(dacc number, damt number)
+Is
+Begin
+    update bankaccount set balance = balance+damt where accountnumber = dacc;
+end;
+
+
+create or replace procedure withdrawamount(wacc number, wamt number)
+Is
+Begin
+    update bankaccount set balance = balance-wamt where accountnumber = wacc;
+end;
